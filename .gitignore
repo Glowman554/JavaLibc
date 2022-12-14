@@ -4,3 +4,4 @@
 *.log
 libc.*
 bin/
+src/include
