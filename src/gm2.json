@@ -1,0 +1,15 @@
+{
+	"name": "FoxDB",
+	"description": "Default description lol",
+	"author": "vossj",
+	"version": "0.0.1",
+	"task_dir": "tasks",
+	"variables": {
+		"cc": "clang",
+		"cflags": "-I../jni -I../jni/win32 -Iinclude -Wno-deprecated-declarations -DDEBUG",
+		"ld": "clang",
+		"ldflags": "-shared -Wl",
+		"out": "libc.dll"
+	},
+	"non_silent": true
+}

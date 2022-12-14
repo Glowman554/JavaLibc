@@ -1,0 +1,3 @@
+-I../jni
+-I../jni/win32
+-Iinclude

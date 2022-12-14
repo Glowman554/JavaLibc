@@ -1,0 +1,11 @@
+{
+	"name": "run",
+	"commands": [
+		"java -jar libc.jar"
+	],
+	"dependencies": [
+		"jar"
+	],
+	"run_after_task": [],
+	"allow_fail": false
+}

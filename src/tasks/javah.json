@@ -1,0 +1,9 @@
+{
+	"name": "javah",
+	"commands": [
+		"javac -verbose -h include ${findall java}"
+	],
+	"dependencies": [],
+	"run_after_task": [],
+	"allow_fail": false
+}
