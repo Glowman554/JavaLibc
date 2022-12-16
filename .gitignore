@@ -6,3 +6,4 @@ libc.*
 classes.txt
 bin/
 src/include
+test.txt
