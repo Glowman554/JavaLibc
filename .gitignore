@@ -3,5 +3,6 @@
 *.o
 *.log
 libc.*
+classes.txt
 bin/
 src/include

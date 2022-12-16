@@ -41,7 +41,7 @@ public class Main
 	}
 
 	public static void main2(String[] args) throws IOException {
-		NativeUtils.loadLibraryFromJar("/libc.dll");
+		NativeUtils.loadLibraryFromJar("/libc." + NativeUtils.getOsEnding());
 
 		Sizes.checkSizes();
 

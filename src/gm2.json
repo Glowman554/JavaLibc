@@ -6,7 +6,7 @@
 	"task_dir": "tasks",
 	"variables": {
 		"cc": "clang",
-		"cflags": "-I../jni -I../jni/win32 -Iinclude -Wno-deprecated-declarations -DDEBUG",
+		"cflags": "-I../jni -I../jni/win32 -Iinclude -Wno-deprecated-declarations",
 		"ld": "clang",
 		"ldflags": "-shared -Wl",
 		"out": "libc.dll"

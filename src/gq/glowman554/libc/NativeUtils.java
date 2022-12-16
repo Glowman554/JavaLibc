@@ -19,6 +19,20 @@ public class NativeUtils
 	{
 	}
 
+	public static String getOsEnding()
+	{
+		String os = System.getProperty("os.name").toLowerCase();
+		if (os.startsWith("linux"))
+		{
+			return "so";
+		}
+		else if (os.startsWith("windows"))
+		{
+			return "dll";
+		}
+		throw new IllegalStateException("Os " + os + " not supported!");
+	}
+
 	public static void loadLibraryFromJar(String path) throws IOException
 	{
 
