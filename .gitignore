@@ -2,7 +2,7 @@
 *.class
 *.o
 *.log
-libc.*
+src/libc.*
 classes.txt
 bin/
 src/include
